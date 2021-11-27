@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #333333;
+}
+
+#navbar
+{
+    height: auto;
+    background-color: pink;
+    overflow: hidden;
+}
+
+#logo
+{
+    margin: 8px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#name
+{
+    display: inline-block;
+    color: black;
+    vertical-align: top;
+    margin-top: 16px;
+    margin-right: 180px;
+}
+
+.a{
+    color: black;
+    margin-left: 28px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 16px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+
+.a:hover{
+    font-size: 23px;
+}
+
+.search-wrap
+{
+    display: inline-block;
+}
+
+
+#mainjpg
+{
+    width: 100%;
+    height: auto;
+}
+
+#texts
+{
+    color: pink;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#lisa
+{
+    border-radius: 10px;
+    margin-left: 190px;
+}
+
+#lisa:hover{
+    width: 220px;
+}
+
+#jennie
+{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#jennie:hover{
+    width: 190px;
+}
+
+#rose
+{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#rose:hover{
+    width: 205px;
+}
+
+#jisoo
+{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#jisoo:hover{
+    width: 200px;
+}
+
+.links{
+    font-size: 25px;
+    color: pink;
+    margin-left: 30%;
+}
+
+#link{
+    margin-left: 40%;
+    color: pink;
+    font-size: 25px;
+}
+
+#bottom{
+    background-color: pink;
+    height: 100px;
+    padding-top: 50px;
+}
+
+#table
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+.navbar + .banner {
+    padding-top: 60px;
+  }
+
+#name
+{
+    width: 200px;
+    height: 25px;
+}
+
+#email
+{
+    width: 200px;
+    height: 25px;
+}
+
+#password
+{
+    width: 200px;
+    height: 25px;
+}
+
+#bias
+{
+    width: 200px;
+    height: 25px;
+}
+
+#submit
+{
+    background: pink;
+    color: black;
+    border-radius: 18px;
+    padding: 5px;
+    border:  3px solid black;
+}
+
+/* for searchbar */
+    .search
+    {
+        margin-left: 10%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 14px;
+    }
+
+    #search2
+    {
+        padding: 5px;
+        margin-left: 0px;
+        height: 30px;
+        border-radius: 6px;
+    }
+
+    #search1
+    {
+        height: 25px;
+        width: 210px;
+        padding-left: 3px;
+        border-radius: 5px;
+        border-color: black;
+    }
+  
+  /* searchbar */
+
+  #tran
+  {
+      padding: 5px;
+      border-radius: 7px;
+      font-size: 15px;
+  }
+@media (max-width:768px) {
+    #name
+    {
+        margin-right: auto;
+    }
+
+    .search
+    {
+        margin-bottom: 5px;
+    }
+
+    #mainjpg
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    #lisa
+    {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+    }
+
+    #jennie
+    {
+        width: auto;
+        height: auto;
+    }
+
+    #rose
+    {
+        width: auto;
+        height: auto;
+    }
+
+    #jisoo
+    {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width:500px) {
+    #stream{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #members{
+        padding-left: 10px;
+        padding-right:10px;
+    }
+
+    #voting{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #link{
+        margin-left: 20%;
+    }
+
+    #bottom-text{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width:412px) {
+    #name
+    {
+        margin-right: auto;
+    }
+
+    .search
+    {
+        margin-bottom: 5px;
+    }
+
+    #mainjpg
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .a
+    {
+        font-size: auto;
+    }
+
+    #stream{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #members{
+        padding-left: 10px;
+        padding-right:10px;
+    }
+
+    #voting{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #link{
+        margin-left: 20%;
+    }
+
+    #bottom-text{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #lisa{
+        padding-left: 70px;
+    }
+
+    #jennie{
+        padding-left: 70px;
+    }
+
+    #jisoo{
+        padding-left: 70px;
+    }
+
+    #rose{
+        padding-left: 70px;
+    }
+}
+
+/* @media (max-width:1000px) {
+    #name
+    {
+        margin-right: auto;
+    }
+
+    .search
+    {
+        margin-bottom: 5px;
+    }
+
+    #mainjpg
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    #lisa
+    {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+    }
+
+    #lisa:hover{
+        width: auto;
+    }
+
+    #jennie:hover{
+        width: auto;
+    }
+
+    #rose:hover{
+        width: auto;
+    }
+
+    #jisoo:hover{
+        width: auto;
+    }
+
+    #jennie
+    {
+        width: auto;
+        height: auto;
+    }
+
+    #rose
+    {
+        width: auto;
+        height: auto;
+    }
+
+    #jisoo
+    {
+        width: auto;
+        height: auto;
+    }
+
+    .banner-texts
+    {
+        padding-left: 100px;
+    }
+
+    .navbar
+    {
+        margin-left: 100px;
+    }
+
+    #bottom-text
+    {
+        padding-left: 120px;
+       
+    }
+
+    #lisa
+    {
+        margin-left: 130px;
+    }
+
+    #jisoo
+    {
+        margin-left: 150px;
+    }
+} */
